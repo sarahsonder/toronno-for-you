@@ -3,33 +3,15 @@ import {Buttons} from './components/Buttons'
 import React from 'react';
 import {Routes, Route} from 'react-router-dom';
 import Trip_Planning from "./components/Trip_Planning";
-import Crash_Course from "./components/Crash_Course";
+import LandingPage from "./components/LandingPage";
 
-const horCenter = {display: 'flex', alignItems: 'center', justifyContent: 'center'}
 const App = () => {
   return (
     <div className="App">
-        <div style={horCenter}>
-            <h1>ToronnoForYou❣️</h1>
-        </div>
-
-        <div style={horCenter}>
-            <h2> Your one-stop-shop for all things Toronto Transit</h2>
-        </div>
-
-        <div style={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center'
-        }}>
-            <Buttons/>
-        </div>
-
         <Routes>
-            <Route path="/trip-planning" element={<Trip_Planning/>}></Route>
-            <Route path ="/crash-course" element={<Crash_Course/>}></Route>
+            <Route exact path="/" element={<LandingPage/>}></Route>
+            <Route exact path="/trip-planning" element={<Trip_Planning/>}></Route>
         </Routes>
-
     </div>
   );
 };
