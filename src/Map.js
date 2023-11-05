@@ -1,6 +1,4 @@
-// Initialize and add the map
 let map;
-
 async function initMap() {
   // The location of Bahen
   const position = { lat: 43.65979686422437, lng: -79.39693152135929};
@@ -26,7 +24,11 @@ async function initMap() {
   const transitLayer = new google.maps.TransitLayer();
   transitLayer.setMap(map);
 }
+const Map = () => {
+  return (initMap())
+}
 
-initMap();
-//window.initMap = initMap;
+export default Map;
+
+// Initialize and add the map
   
