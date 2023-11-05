@@ -1,7 +1,9 @@
 import './App.css';
 import {Buttons} from './buttons'
+import React from 'react';
+import Map from './components/Map'
 
-function App() {
+const App = () => {
   return (
     <div>
         <div
@@ -26,8 +28,12 @@ function App() {
         }}>
             <Buttons/>
         </div>
+
+        <div>
+            <Map/>
+        </div>
     </div>
   );
-}
+};
 
 export default App;
