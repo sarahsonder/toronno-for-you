@@ -1,36 +1,21 @@
 import './App.css';
-import {Buttons} from './buttons'
+import {Buttons} from './components/Buttons'
 import React from 'react';
-import Map from './components/Map'
 
+const horCenter = {display: 'flex', alignItems: 'center', justifyContent: 'center'}
 const App = () => {
   return (
     <div>
-        <div
-            style={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-        }}>
+        <div style={horCenter}>
             <h1>ToronnoForYou❣️</h1>
         </div>
 
-        <div style={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center'
-        }}><h2> Your one-stop-shop for all things Toronto Transit</h2></div>
-
-        <div style={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center'
-        }}>
-            <Buttons/>
+        <div style={horCenter}>
+            <h2> Your one-stop-shop for all things Toronto Transit</h2>
         </div>
 
         <div>
-            <Map/>
+            <Buttons/>
         </div>
     </div>
   );
