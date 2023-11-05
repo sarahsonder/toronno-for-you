@@ -1,16 +1,5 @@
 import './App.css';
-
-function ButtonNewcomer() {
-  return (
-      <button style={{ width: "200px", height: "100px", fontSize: "25pt"}}>Crash Course</button>
-  )
-}
-
-function ButtonMap() {
-    return (
-        <button style={{ width: "200px", height: "100px", fontSize: "25pt"}}>Trip Planning</button>
-    )
-}
+import {Buttons} from './buttons'
 
 function App() {
   return (
@@ -35,9 +24,7 @@ function App() {
             alignItems: 'center',
             justifyContent: 'center'
         }}>
-            <ButtonNewcomer />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <ButtonMap />
+            <Buttons/>
         </div>
     </div>
   );
