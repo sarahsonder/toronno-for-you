@@ -3,6 +3,7 @@ import {Buttons} from './components/Buttons'
 import React from 'react';
 import {Routes, Route} from 'react-router-dom';
 import Trip_Planning from "./components/Trip_Planning";
+import Crash_Course from "./components/Crash_Course";
 
 const horCenter = {display: 'flex', alignItems: 'center', justifyContent: 'center'}
 const App = () => {
@@ -26,7 +27,9 @@ const App = () => {
 
         <Routes>
             <Route path="/trip-planning" element={<Trip_Planning/>}></Route>
+            <Route path ="/crash-course" element={<Crash_Course/>}></Route>
         </Routes>
+
     </div>
   );
 };
