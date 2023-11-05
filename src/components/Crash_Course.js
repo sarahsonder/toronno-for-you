@@ -11,6 +11,7 @@ export const Crash_Course = () => {
             <h1>Welcome to the 6ix</h1>
             <h2>Toronto is made up of six boroughs, but how do we get around?</h2>
             <Subway/>
+            <Streetcar/>
         </div>
     )
 }
@@ -33,5 +34,22 @@ const Subway = ()=> {
             <img src={link1} alt="Image of a subway"/>
         </div>)
 }
+
+const Streetcar = () => {
+    return (
+        <div style={{ display: 'block', width: 700, padding: 30 }}>
+            <h3>Streetcar</h3>
+            <Row>
+                <Col>~ Consist of 9 streetcar lines and 4 night networks
+                </Col>
+                <Col>
+                    ~ Accessibility Friendly
+                </Col>
+            </Row>
+        </div>
+    )
+}
+
+
 
 export default Crash_Course;
