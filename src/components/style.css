@@ -1,0 +1,18 @@
+.navbar {
+    box-sizing: border-box;
+    margin: 0;
+    background-color: dodgerblue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    gap: 2rem;
+    padding: 0 1rem;
+}
+
+
+
+.navbar a {
+    font-size: 1.5rem;
+    color: inherit;
+}
