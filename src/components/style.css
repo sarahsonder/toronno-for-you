@@ -1,7 +1,10 @@
+.landingPage {
+    background-color:rgb(231, 226, 202);
+}
 .navbar {
     box-sizing: border-box;
     margin: 0;
-    background-color: dodgerblue;
+    background-color: rgb(168, 207, 246);
     color: white;
     display: flex;
     justify-content: space-between;
@@ -23,4 +26,26 @@
     right: 0;
     width: 50%;
     height: 50%;
+}
+
+.buttons button{
+    background-color: rgb(245,245,220, 0.65);
+	width: 200px;
+    height: 100px;
+    font-size: 24pt;
+	margin-left: auto;
+	margin-right: auto;
+    text-align: middle;
+	padding: 20px;
+	
+    border: 2.5px dashed rgb(0, 0, 0);
+	border-radius: 10px;
+	box-shadow: 0px 0px 40px #deb887;
+	transition: 1s;
+	
+}
+
+.buttons button:hover{
+    border-radius: 40px;
+    box-shadow: 0px 0px 40px 20px lavender;
 }
