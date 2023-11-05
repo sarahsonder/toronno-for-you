@@ -1,3 +1,7 @@
+.landingPage {
+    background-image: url(https://drive.google.com/file/d/1J_yA6i-5JUSm6bkc0ZKEIXV3K_96yeDD/view?usp=sharing);
+}
+
 .navbar {
     box-sizing: border-box;
     margin: 0;
@@ -10,9 +14,11 @@
     padding: 0 1rem;
 }
 
-
-
 .navbar a {
     font-size: 1.5rem;
     color: inherit;
+}
+
+.about {
+    margin: 200px;
 }
