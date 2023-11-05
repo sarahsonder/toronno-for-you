@@ -1,9 +1,10 @@
 import React from "react"
+import Map from "./Map"
 
 export const Trip_Planning = () => {
     return(
         <div className="trip-planning">
-            Hello
+            <Map></Map>
         </div>
     )
 }
