@@ -2,7 +2,7 @@
 let map;
 
 async function initMap() {
-  // The location of Uluru
+  // The location of Bahen
   const position = { lat: 43.65979686422437, lng: -79.39693152135929};
   // Request needed libraries.
   //@ts-ignore
